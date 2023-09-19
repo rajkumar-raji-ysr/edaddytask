@@ -1,0 +1,44 @@
+.issuesCard{
+    .card-header{
+        background-color: white;
+        color:  #111827;
+// font-family: Inter;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .active_in{
+        color: #2247CA;
+// font-family: Inter;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5rem;
+    }
+
+    .line{
+        width: 30px;
+        height: 2px;
+        background: #E5E7EB;
+        position: relative;
+        right: 27px;
+        &.line1{
+           
+            top: 50px;
+          
+        }
+        &.line2{
+            top: 20px;
+        }
+      
+    }
+
+    .warBtn{
+        width: 20px;
+    height: 25px;
+    margin-left: 6px;
+    margin-top: 8px;
+    cursor: pointer;
+    }
+}

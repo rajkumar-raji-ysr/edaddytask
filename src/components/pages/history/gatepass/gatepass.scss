@@ -1,0 +1,21 @@
+.gatepassCard {
+    .card-header {
+        background-color: white;
+        .title {
+            color: #111827;
+            // font-family: Inter;
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+    .active_in{
+        color: #2247CA;
+// font-family: Inter;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5rem;
+    }
+}

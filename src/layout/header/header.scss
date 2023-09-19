@@ -1,0 +1,34 @@
+.app-header {
+    .navbar-brand {
+        color: #252f3f;
+        font-family: Inter;
+        font-size: 1rem;
+        font-style: italic;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .app-menu {
+        .nav-item {
+            .nav-link {
+                color: #787f8a;
+                font-family: Inter;
+                font-size: 0.875rem;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                height: 2.125rem;
+
+                &.active {
+                    border-radius: 0.5rem;
+                    background: linear-gradient(94deg, #823cfa 5.41%, #742cac 108.57%), #4a4a4a;
+                    height: 2.125rem;
+                    padding: 0.5rem;
+                    align-items: flex-start;
+                    gap: 0.5rem;
+                    color: white;
+                }
+            }
+        }
+    }
+}

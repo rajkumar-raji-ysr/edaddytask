@@ -1,0 +1,58 @@
+.jobCard {
+    .card-header {
+        background: #f5f7fd;
+    }
+    .ticket-title {
+        color: #111827;
+        /* Inter/xlarge semibold */
+        // font-family: Inter;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2.25rem;
+    }
+    .ticket-code {
+        color: #6b7280;
+        // font-family: Inter;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.25rem;
+    }
+    .active_in {
+        color: #2247ca;
+        // font-family: Inter;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.5rem;
+    }
+    .subTT {
+        color: #6b7280;
+        // font-family: Inter;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        span {
+            color: #252f3f;
+            // font-family: Inter;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+    .suptitle {
+        color: #252f3f;
+        // font-family: Inter;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .autoImg{
+        width: 5.125rem;
+height: 6.3125rem;
+    }
+}

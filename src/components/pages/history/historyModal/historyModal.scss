@@ -1,0 +1,21 @@
+.historyModal{
+    
+    margin-top: 75px;
+    height: 92%;
+    .modal-body{
+        background: #F1F1FA;
+        padding-top: 42px;
+    }
+.closeModal{
+    width: 3.1875rem;
+    height: 3.1875rem;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    top: 51px;
+    position: fixed;
+    right: 50%;
+    cursor: pointer;
+
+}
+}

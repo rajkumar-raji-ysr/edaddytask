@@ -1,0 +1,107 @@
+.timesheetCard {
+    .card-header {
+        background-color: white;
+        .title {
+            color: #111827;
+            // font-family: Inter;
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+    .active_in {
+        color: #2247ca;
+        // font-family: Inter;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.5rem;
+    }
+    .step-container {
+        .step {
+            padding: 10px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+
+            background-color: cream;
+            .v-stepper {
+                position: relative;
+                /*   visibility: visible; */
+            }
+
+            .circle {
+                background-color: white;
+                border: 3px solid gray;
+                border-radius: 100%;
+                width: 20px; /* +6 for border */
+                height: 20px;
+                display: inline-block;
+            }
+            .line {
+                top: 19px;
+                left: 10px;
+                /*   height: 120px; */
+                height: 100%;
+
+                position: absolute;
+                border-left: 3px solid gray;
+            }
+            &.completed {
+                .circle {
+                    visibility: visible;
+                    background-color: #333;
+                    border-color: #333;
+                    background-image: url("../../../../assets/img/check.png");
+                    background-repeat: no-repeat;
+                    background-position-x: 2px;
+                    background-position-y: 3px;
+                }
+                .line {
+                    border-left: 3px solid#333;
+                }
+            }
+            &.active {
+                .circle {
+                    visibility: visible;
+                    border-color: #333;
+                }
+            }
+            &.empty {
+                .circle {
+                    visibility: hidden;
+                }
+                .line {
+                    /*     visibility: hidden; */
+                    /*   height: 150%; */
+                    top: 0;
+                    height: 150%;
+                }
+            }
+            &:last-child {
+                .line {
+                    border-left: 3px solid white;
+                    z-index: -1; /* behind the circle to completely hide */
+                }
+            }
+            .step-content {
+                margin-left: 20px;
+                display: inline-block;
+                width: 100%;
+            }
+        }
+    }
+    .ticketTitle {
+        color: #1c1c1c;
+        // font-family: Inter;
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.533rem;
+        .text-pur {
+            color: #8355e5;
+        }
+    }
+}
